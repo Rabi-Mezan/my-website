@@ -20,13 +20,13 @@
 
 <body>
     <!-- main start -->
-    <section class="total-container lg:p-28 p-4">
+    <section class="total-container lg:p-20 p-2 ">
         <div class="lg:flex w-full gap-x-5">
             <div class="bg-white lg:w-60 w-full mr-8 side-profile shadow-md rounded-md">
                 <!-- profile info -->
                 <div>
-                    <img class="w-full" src="images/propic1.jpeg" alt="">
-                    <h1 class="uppercase text-center mt-4">Rabi Mezan</h1>
+                    <img class="w-full h-full" src="images/propic3.jpg" alt="">
+                    <h1 class="uppercase text-center lg:mt-4">Rabi Mezan</h1>
                     <h4 class="job">Front-End Developer</h4>
 
                 </div>
@@ -49,13 +49,13 @@
             <div class=" lg:w-2/3">
                 <div class="navbar w-full bg-white shadow-md">
                     <ul class="top-menu">
-                        <li class="active nav-item">
+                        <li class="active nav-item" id="about">
                             <a class=" page-scroll selected active" href="#about">
                                 <i class="fa fa-user"></i>
                                 <span> ABOUT </span>
                             </a>
                         </li>
-                        <li class="active nav-item">
+                        <li class="active nav-item" id="resume">
                             <a class=" page-scroll selected active" href="#about">
                                 <i class="far fa-file"></i>
                                 <span> RESUME </span>
@@ -81,7 +81,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="details-page w-full bg-white mt-14 shadow-md">
+                <div class="details-page w-full bg-white mt-14 shadow-md" id="details-page">
                     <h2 class="page-title">About Me</h2>
                     <hr class="my-4 hr-line">
                     <ul class="about-me">
@@ -136,6 +136,8 @@
             </div>
         </div>
     </section>
+
+    <script src="js/main.js"></script>
 </body>
 
 </html>

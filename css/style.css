@@ -3,16 +3,17 @@
 font-family: 'Poppins', sans-serif; */
 
 body{
-    background-color: rgba(228, 223, 223,0.8);
+    /* background-color: rgba(228, 223, 223,0.8); */
+    background-color: #c9c9ff;
 }
 
 
 /* side profile design */
 .side-profile{
-    height: 420px;
+    height: 520px;
 }
 .side-profile img{
-    height: 205px;
+    height: 300px;
 }
 
 .side-profile h1{
@@ -87,7 +88,10 @@ grid-template-columns: repeat(5,1fr);
  }
 
  .top-menu li:hover{
-     background-color: #DFDFDF;
+     /* background-color: #DFDFDF; */
+     background-color: #a7adba;
+     transform: scaleX(1.2);
+     
  }
 
 
@@ -136,10 +140,18 @@ grid-template-columns: repeat(5,1fr);
 
   /* meadia query */
   @media only screen and (max-width: 600px) {
+
+    .side-profile img{
+        height: 200px;
+        width: 40%;
+        border-radius: 50%;
+        margin: auto;
+        padding: 20px;
+    }
     .top-menu{
         display: grid;
         grid-template-columns: 1fr;
-        
+        margin-top: -80px;
         }
 
         .about-me{
