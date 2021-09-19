@@ -17,7 +17,7 @@ body{
 }
 
 .side-profile h1{
-    color: #6C7A89;
+    color: #343d46;
     font-size: 20px;
     font-weight: 900;
     font-family: 'Poppins', sans-serif; 
@@ -75,6 +75,7 @@ grid-template-columns: repeat(5,1fr);
 }
  .top-menu li{
     border-right: 1px dotted gray;
+    color: #343d46;
      display: flex;
      padding: 35px 8px;
      background-color: white;
@@ -89,8 +90,9 @@ grid-template-columns: repeat(5,1fr);
 
  .top-menu li:hover{
      /* background-color: #DFDFDF; */
-     background-color: #a7adba;
-     transform: scaleX(1.2);
+     background-color: #65737e;
+     transform: scaleX(1.15);
+     color: white;
      
  }
 
@@ -114,7 +116,7 @@ grid-template-columns: repeat(5,1fr);
  }
 
  .about-me p span{
-    color: #53565a;
+    color: #65737e;
     font-size: 13px;
  }
 
@@ -142,8 +144,8 @@ grid-template-columns: repeat(5,1fr);
   @media only screen and (max-width: 600px) {
 
     .side-profile img{
-        height: 200px;
-        width: 40%;
+        height: 180px;
+        width: 50%;
         border-radius: 50%;
         margin: auto;
         padding: 20px;
