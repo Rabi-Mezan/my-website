@@ -11,6 +11,7 @@ body{
 /* side profile design */
 .side-profile{
     height: 520px;
+    background-color: #df3950;
 }
 .side-profile img{
     height: 300px;
@@ -45,6 +46,8 @@ body{
     text-align: center;
 }
 
+
+
 .facebook:hover{
 background-color: rgba(38, 38, 245, 0.972);
 border: white;
@@ -67,18 +70,20 @@ color: white;
 }
 
 /* navbar design */
-
+.navbar{
+    
+}
 .top-menu{
 display: grid;
 grid-template-columns: repeat(5,1fr);
 
 }
  .top-menu li{
-    border-right: 1px dotted gray;
+    border-right: 1px dotted rgb(255, 254, 254);
     color: #343d46;
      display: flex;
      padding: 35px 8px;
-     background-color: white;
+     background-color: #df3950;
      justify-content: center;
      font-weight: 500;
 
@@ -96,7 +101,9 @@ grid-template-columns: repeat(5,1fr);
      
  }
 
-
+ .details{
+     background-color: #99aab5;
+ }
  .page-title{
     color: #6C7A89;
     font-size: 20px;
