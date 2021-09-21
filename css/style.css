@@ -16,7 +16,7 @@ body{
     height: 520px;
     /* background-color: #df3950; */
     background-color: white;
-    position: sticky;
+    /* position: sticky; */
     top: 0;
 }
 .side-profile img{
@@ -273,10 +273,11 @@ footer div{
         background-color: white;
     }
 
-    .side-profile{
+    /* .side-profile{
         background-color: white;
         position: static;
-    }
+        top: 0px;
+    } */
 
     .side-profile img{
         height: 180px;
