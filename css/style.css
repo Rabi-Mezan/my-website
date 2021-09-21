@@ -5,13 +5,17 @@ font-family: 'Poppins', sans-serif; */
 body{
     /* background-color: rgba(228, 223, 223,0.8); */
     background-color: #c9c9ff;
+    /* background-color: #3b444b; */
+    /* background-color: #36454f; */
+
 }
 
 
 /* side profile design */
 .side-profile{
     height: 520px;
-    background-color: #df3950;
+    /* background-color: #df3950; */
+    background-color: white;
 }
 .side-profile img{
     height: 300px;
@@ -79,11 +83,12 @@ grid-template-columns: repeat(5,1fr);
 
 }
  .top-menu li{
-    border-right: 1px dotted rgb(255, 254, 254);
+    border-right: 1px dotted gray;
     color: #343d46;
      display: flex;
      padding: 35px 8px;
-     background-color: #df3950;
+     /* background-color: #df3950; */
+     background-color: white;
      justify-content: center;
      font-weight: 500;
 
@@ -101,8 +106,9 @@ grid-template-columns: repeat(5,1fr);
      
  }
 
- .details{
-     background-color: #99aab5;
+ .details-page{
+     /* background-color: #99aab5; */
+     background-color: white;
  }
  .page-title{
     color: #6C7A89;
@@ -137,18 +143,94 @@ grid-template-columns: repeat(5,1fr);
     text-align: justify;
   }
 
-  .note h2{
+  /* .note h2{
       color: black;
       font-size: 20px;
       font-weight: bold;
       display: inline-block;
       padding:25px 20px ;
       margin-bottom: -20px;
-  }
+  } */
 
 
-  /* meadia query */
-  @media only screen and (max-width: 600px) {
+  
+
+  /* progressbar */
+/* Create a container using css properties */
+.container { 
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+} 
+  
+/* Apply css properties to ui-widgets class */
+.ui-widgets { 
+   
+    position: relative; 
+    display: inline-block; 
+    width: 7rem; 
+    height: 7rem; 
+    border-radius: 9rem; 
+    margin:1.5rem; 
+    border: 1.2rem solid gray; 
+    box-shadow: inset 0 0 7px #7289da; 
+    border-left-color: #36454f; 
+    border-top-color:#36454f ; 
+    border-right-color: #36454f; 
+    border-bottom-color: white ; 
+    text-align: center; 
+    box-sizing: border-box; 
+} 
+  
+/* Apply css properties to the second 
+    child of ui-widgets class */
+.container .css { 
+    border-top-color:#36454f ; 
+    border-right-color: #36454f; 
+    border-left-color: #36454f; 
+    border-bottom-color: white; 
+} 
+.container .js { 
+    border-top-color:#36454f ; 
+    border-right-color: white; 
+    border-left-color: #36454f; 
+    border-bottom-color: white; 
+} 
+.container .react { 
+    border-top-color:white ; 
+    border-right-color: white; 
+    border-left-color: #36454f; 
+    border-bottom-color: white; 
+} 
+  
+/* Apply css properties to ui-widgets 
+   class and ui-values class */
+.ui-widgets .ui-values { 
+    top: 15px; 
+    position: absolute; 
+    text-align:center ;
+    left: 10px; 
+    right: 0; 
+    font-weight: 700; 
+    font-size: 1.5rem; 
+} 
+  
+/*  Apply css properties to ui-widgets  
+class and ui-labels class */
+.ui-widgets .ui-labels { 
+    left: 0; 
+    bottom: -16px;
+    color:	black; 
+    position: absolute; 
+    width: 100%; 
+    font-size: 12px; 
+}
+
+/* meadia query */
+@media only screen and (max-width: 600px) {
+
+    body{
+        background-color: white;
+    }
 
     .side-profile img{
         height: 180px;
@@ -172,8 +254,45 @@ grid-template-columns: repeat(5,1fr);
            
         }
 
+
         .about-me p span{
             color: #53565a;
             font-size: 14px;
          }
+
+
+         .container { 
+             padding: 2rem;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+        } 
+
+        .ui-widgets { 
+            position: relative; 
+            display: inline-block; 
+            width: 4.2rem; 
+            height: 4.2rem; 
+            border-radius: 9rem; 
+            margin:1rem; 
+        }
+
+        .ui-widgets .ui-labels { 
+            left: 0; 
+            bottom: -16px; 
+            color:black; 
+            position: absolute; 
+            width: 60%; 
+            font-size: 8px;
+            text-align: center; 
+        }
+
+        .ui-widgets .ui-values { 
+            top: 8px; 
+            left: 0px;
+            position: absolute; 
+            left: 5px; 
+            right: 0; 
+            font-weight: 700; 
+            font-size: 0.5rem; 
+        } 
   }
