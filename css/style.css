@@ -273,6 +273,11 @@ footer div{
         background-color: white;
     }
 
+    .side-profile{
+        background-color: white;
+        position: static;
+    }
+
     .side-profile img{
         height: 180px;
         width: 50%;
