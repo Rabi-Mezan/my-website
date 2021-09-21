@@ -74,9 +74,7 @@ color: white;
 }
 
 /* navbar design */
-.navbar{
-    
-}
+
 .top-menu{
 display: grid;
 grid-template-columns: repeat(5,1fr);
@@ -157,6 +155,9 @@ grid-template-columns: repeat(5,1fr);
 
   /* progressbar */
 /* Create a container using css properties */
+.skills{
+    background-color:#e6e6e6;
+}
 .container { 
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -164,7 +165,6 @@ grid-template-columns: repeat(5,1fr);
   
 /* Apply css properties to ui-widgets class */
 .ui-widgets { 
-   
     position: relative; 
     display: inline-block; 
     width: 7rem; 
@@ -174,8 +174,8 @@ grid-template-columns: repeat(5,1fr);
     border: 1.2rem solid gray; 
     box-shadow: inset 0 0 7px #7289da; 
     border-left-color: #36454f; 
-    border-top-color:#36454f ; 
-    border-right-color: #36454f; 
+    border-top-color:#41525e ; 
+    border-right-color: #5f7786; 
     border-bottom-color: white ; 
     text-align: center; 
     box-sizing: border-box; 
@@ -184,13 +184,13 @@ grid-template-columns: repeat(5,1fr);
 /* Apply css properties to the second 
     child of ui-widgets class */
 .container .css { 
-    border-top-color:#36454f ; 
-    border-right-color: #36454f; 
+    border-top-color:#41525e ; 
+    border-right-color: #5f7786; 
     border-left-color: #36454f; 
     border-bottom-color: white; 
 } 
 .container .js { 
-    border-top-color:#36454f ; 
+    border-top-color:#41525e ; 
     border-right-color: white; 
     border-left-color: #36454f; 
     border-bottom-color: white; 
@@ -225,6 +225,45 @@ class and ui-labels class */
     font-size: 12px; 
 }
 
+/* working are */
+.working-area{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   grid-row-gap: 25px;
+    margin: 30px 20px;
+}
+.single-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.single-area span i{
+    font-size: 20px;
+    color: white;
+    background-color:#243c4f;
+    border-radius: 55px;
+    width: 55px;
+    display: inline-block;
+    padding: 18px 0;
+    margin-right: 5px;
+    text-align: center;
+}
+.single-area h3{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.single-area p{
+    font-size: 10px;
+    color: #7F7F7F;
+}
+
+footer div{
+    color: #7F7F7F; 
+}
+
+
 /* meadia query */
 @media only screen and (max-width: 600px) {
 
@@ -245,6 +284,11 @@ class and ui-labels class */
         margin-top: -80px;
         }
 
+        .page-title{
+          text-align: center;
+        
+         }
+
         .about-me{
             display: grid;
             grid-template-columns: repeat(1,1fr);
@@ -262,7 +306,7 @@ class and ui-labels class */
 
 
          .container { 
-             padding: 2rem;
+            padding: 2rem;
             display: grid;
             grid-template-columns: repeat(3,1fr);
         } 
@@ -295,4 +339,11 @@ class and ui-labels class */
             font-weight: 700; 
             font-size: 0.5rem; 
         } 
+
+        .working-area{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            grid-row-gap: 25px;
+             margin: 30px 20px;
+         } 
   }
