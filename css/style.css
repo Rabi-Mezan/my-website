@@ -42,8 +42,6 @@ body{
     font-size: 12px;
     color: #2A2A2A;
     border: solid 1px #2A2A2A;
-    -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
     border-radius: 50px;
     width: 34px;
     display: inline-block;
@@ -265,6 +263,20 @@ footer div{
     color: #7F7F7F; 
 }
 
+
+/* contact us page */
+.send-btn{
+    color: white;  
+     /* background-color: #df3950; */
+     background-color: gray;
+
+}
+
+.send-btn:hover{
+   
+    background-color: #65737e;
+    transform: scale(1.05);
+}
 
 /* meadia query */
 @media only screen and (max-width: 600px) {
