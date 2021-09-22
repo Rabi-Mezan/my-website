@@ -143,6 +143,7 @@ resumePage.addEventListener('click', function (event) {
 
     detailsPage.innerHTML = `
     <h2 class="page-title text-center">My Resume</h2>
+    <img src="images/resume.png" class="lg:w-2/3 mx-auto" alt="">
     <p class="text-2xl pb-8 text-center text-yellow-500">This page is under construction</p>
     
     `
@@ -153,6 +154,7 @@ portfolioPage.addEventListener('click', function (event) {
 
     detailsPage.innerHTML = `
     <h2 class="page-title text-center">My Portfolio</h2>
+    <img src="images/Portfolio.png" class="lg:w-2/3 mx-auto" alt="">
     <p class="text-2xl pb-8 text-center text-yellow-500">This page is under construction</p>
     
     `
@@ -163,6 +165,7 @@ blogPage.addEventListener('click', function (event) {
 
     detailsPage.innerHTML = `
     <h2 class="page-title text-center">My Blogs</h2>
+    <img src="images/blog.png" class="lg:w-2/3 w-60 mx-auto" alt="">
     <p class="text-2xl pb-8 text-center text-yellow-500">This page is under construction</p>
     
     `
@@ -175,6 +178,7 @@ contactPage.addEventListener('click', function (event) {
     <section class="text-gray-600 body-font relative">
     <div class=" px-5 py-24 mx-auto">
         <div class="flex flex-col text-center w-full mb-12">
+        <img src="images/contact-us.png" class="lg:w-2/3 mx-auto" alt="">
             <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 page-title">Contact Us
             </h1>
             <p class="lg:w-2/3 mx-auto leading-relaxed text-base">For any kind of support or
