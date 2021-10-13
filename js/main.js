@@ -143,8 +143,95 @@ resumePage.addEventListener('click', function (event) {
 
     detailsPage.innerHTML = `
     <h2 class="page-title text-center">My Resume</h2>
-    <img src="images/resume.png" class="lg:w-2/3 mx-auto" alt="">
-    <p class="text-2xl pb-8 text-center text-yellow-500">This page is under construction</p>
+   
+    <div class="mb-5">
+
+    <h1 class="text-center page-title uppercase"><i
+            class="fas fa-graduation-cap mr-2"></i>Ecademic
+        Background</h1>
+                        <ul class="timeline">
+
+                            <!-- Item 1 -->
+                            <li>
+                                <div class="direction-r">
+                                    <div class="flag-wrapper">
+                                        <span class="flag">SSC</span>
+                                        <span class="time-wrapper"><span class="time">2014</span></span>
+                                    </div>
+                                    <div class="desc">Garagonj Secondary High School</div>
+                                </div>
+                            </li>
+
+                            <!-- Item 2 -->
+                            <li>
+                                <div class="direction-l">
+                                    <div class="flag-wrapper">
+                                        <span class="flag">HSC</span>
+                                        <span class="time-wrapper"><span class="time">2016</span></span>
+                                    </div>
+                                    <div class="desc">Mia Jinaah Alom Degree College</div>
+                                </div>
+                            </li>
+
+                            <!-- Item 3 -->
+                            <li>
+                                <div class="direction-r">
+                                    <div class="flag-wrapper">
+                                        <span class="flag">BSc in CSE</span>
+                                        <span class="time-wrapper"><span class="time">2018-present</span></span>
+                                    </div>
+                                    <div class="desc">Daffodil International University</div>
+                                </div>
+                            </li>
+
+                        </ul>
+
+                        <h1 class="text-center page-title uppercase"><i class="fas fa-sticky-note mr-2"></i>Working
+                            Experience</h1>
+                        <ul class="timeline">
+
+                            <!-- Item 4 -->
+                            <li>
+                                <div class="direction-l">
+                                    <div class="flag-wrapper">
+                                        <span class="flag">Junior Developer</span>
+                                        <span class="time-wrapper"><span class="time">2021-present</span></span>
+                                    </div>
+                                    <div class="desc">I'm working as a junior web developer </div>
+                                </div>
+                            </li>
+
+                            <!-- Item 5 -->
+                            <li>
+                                <div class="direction-r">
+                                    <div class="flag-wrapper">
+                                        <span class="flag">UI Design</span>
+                                        <span class="time-wrapper"><span class="time">2021-present</span></span>
+                                    </div>
+                                    <div class="desc">I also work with UI design</div>
+                                </div>
+                            </li>
+
+                            <!-- Item 6 -->
+                            <li>
+                                <div class="direction-l">
+                                    <div class="flag-wrapper">
+                                        <span class="flag">Front-End Developer</span>
+                                        <span class="time-wrapper"><span class="time">2020-present</span></span>
+                                    </div>
+                                    <div class="desc">I am a front end web developer</div>
+                                </div>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                    <hr class="my-4 hr-line">
+                    <footer class="mt-5">
+                        <div class="text-center text-xs pb-8">
+                            <small>Copyright © /devrabi/ 2021 All right reserved</small>
+                        </div>
+                    </footer>
     
     `
 
