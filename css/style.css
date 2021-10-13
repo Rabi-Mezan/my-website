@@ -356,14 +356,14 @@ footer div{
   }
   
   .direction-l .flag {
-    -webkit-box-shadow: -1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
-    -moz-box-shadow: -1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
+    box-shadow: -1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
+    box-shadow: -1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
     box-shadow: -1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
   }
   
   .direction-r .flag {
-    -webkit-box-shadow: 1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
-    -moz-box-shadow: 1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
     box-shadow: 1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
   }
   
@@ -444,6 +444,7 @@ footer div{
     font-size: 0.77777em;
     font-style: italic;
     line-height: 1.5em;
+    color: #c1c1c1;
   }
   
   .direction-r .desc {
@@ -478,6 +479,7 @@ footer div{
   .flag {
       background: rgb(255,255,255);
       z-index: 15;
+      color: #343d46;
   }
   
   .direction-l .flag:before,
@@ -549,14 +551,7 @@ footer div{
   
   }
   
-  @media screen and (min-width: 400px ?? max-width: 660px) {
-  
-  .direction-l .desc,
-  .direction-r .desc {
-      margin: 1em 4em 0 4em;
-  }
-  
-  }
+ 
 
 
 /* meadia query */
@@ -647,3 +642,12 @@ footer div{
              margin: 30px 20px;
          } 
   }
+
+  @media screen and (min-width: 400px ?? max-width: 660px) {
+  
+    .direction-l .desc,
+    .direction-r .desc {
+        margin: 1em 4em 0 4em;
+    }
+    
+    }

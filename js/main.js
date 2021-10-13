@@ -10,7 +10,7 @@ function getPageName(id) {
 const aboutPage = getPageName('about');
 aboutPage.addEventListener('click', function (event) {
     detailsPage.innerHTML = `
-    <h2 class="page-title">About Me</h2>
+    <h2 class="page-title text-center">About Me</h2>
     <hr class="my-4 hr-line">
     <ul class="about-me">
         <li>
