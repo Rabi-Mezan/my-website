@@ -7,13 +7,15 @@ body{
     background-color: #c9c9ff;
     /* background-color: #3b444b; */
     /* background-color: #36454f; */
+    /* font-family: 'Roboto', sans-serif; */
 
 }
 
 
 /* side profile design */
 .side-profile{
-    height: 520px;
+    height: 550px;
+    /* font-family: 'Rubik', sans-serif; */
     /* background-color: #df3950; */
     background-color: white;
     /* position: sticky; */
@@ -24,6 +26,7 @@ body{
 }
 
 .side-profile h1{
+  font-family: 'Meie Script', cursive;
     color: #343d46;
     font-size: 20px;
     font-weight: 900;
@@ -36,6 +39,18 @@ body{
     line-height: 30px;
     font-size: 16px;
     text-align: center;
+}
+.side-profile .hire-btn{
+  background-color: rgb(31, 63, 63);
+  font-weight: 700;
+  text-align: center;
+  color: white;
+  padding: 5px 10px;
+  margin-top: 10px;
+}
+
+.hire-btn:hover{
+  background-color: rgb(238, 60, 28);
 }
 
 .social-icons a{
@@ -379,7 +394,7 @@ footer div{
     margin-top: -10px;
     background: #fff;
     border-radius: 10px;
-    border: 4px solid rgb(255,80,80);
+    border: 10px solid rgb(238, 46, 46);
     z-index: 10;
   }
   
@@ -396,7 +411,7 @@ footer div{
     width: 0;
     margin-top: -8px;
     border: solid transparent;
-    border-left-color: rgb(248,248,248);
+    border-left-color: rgba(155, 151, 151, 0.856);
     border-width: 8px;
     pointer-events: none;
   }
@@ -410,7 +425,7 @@ footer div{
     width: 0;
     margin-top: -8px;
     border: solid transparent;
-    border-right-color: rgb(248,248,248);
+    border-right-color: rgba(155, 151, 151, 0.856);
     border-width: 8px;
     pointer-events: none;
   }

@@ -102,11 +102,11 @@ aboutPage.addEventListener('click', function (event) {
         <div class="single-area">
             <span> <i class="fab fa-apple"></i></span>
             <h3>Application</h3>
-            <p class="">I work with IOS </p>
+            <p class="">I can develop  IOS application </p>
         </div>
         <div class="single-area">
             <span> <i class="fas fa-desktop"></i></span>
-            <h3>Web Design</h3>
+            <h3>UI Design</h3>
             <p>I design website </p>
         </div>
         <div class="single-area">
@@ -251,9 +251,118 @@ const blogPage = getPageName('blog');
 blogPage.addEventListener('click', function (event) {
 
     detailsPage.innerHTML = `
-    <h2 class="page-title text-center">My Blogs</h2>
-    <img src="images/blog.png" class="lg:w-2/3 w-60 mx-auto" alt="">
-    <p class="text-2xl pb-8 text-center text-yellow-500">This page is under construction</p>
+    <!-- component -->
+    <section class="max-w-7xl mx-auto px-6 sm:px-6 lg:px-6 mb-20">
+    <article>
+        <h2 class="sm:text-3xl text-2xl font-medium title-font mb-4 page-title text-center">BLOG BY
+            RABI
+        </h2>
+        <section class="mt-6 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-x-6 gap-y-8">
+            <article
+                class="relative w-full h-60 bg-cover bg-center group rounded-lg overflow-hidden shadow-lg hover:shadow-2xl  transition duration-300 ease-in-out"
+                style="background-image: url('https://images.unsplash.com/photo-1623479322729-28b25c16b011?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1740&q=80');">
+                <div
+                    class="absolute inset-0 bg-black bg-opacity-50 group-hover:opacity-75 transition duration-300 ease-in-out">
+                </div>
+                <div
+                    class="relative w-full h-full px-4 sm:px-6 lg:px-4 flex justify-center items-center">
+                    <h3 class="text-left">
+                        <a class="text-white text-2xl font-bold text-center" href="#">
+                            <span class="absolute inset-0"></span>
+                            Top 10 highest paid programming languages of 2021
+                        </a>
+                    </h3>
+                </div>
+            </article>
+            <article
+                class="relative w-full h-60 bg-cover bg-center group rounded-lg overflow-hidden shadow-lg hover:shadow-2xl  transition duration-300 ease-in-out"
+                style="background-image: url('https://images.unsplash.com/photo-1569012871812-f38ee64cd54c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');">
+                <div
+                    class="absolute inset-0 bg-black bg-opacity-50 group-hover:opacity-75 transition duration-300 ease-in-out">
+                </div>
+                <div
+                    class="relative w-full h-full px-4 sm:px-6 lg:px-4 flex justify-center items-center">
+                    <h3 class="text-left">
+                        <a class="text-white text-2xl font-bold text-center" href="#">
+                            <span class="absolute inset-0"></span>
+                            Python Frameworks
+                        </a>
+                    </h3>
+                </div>
+            </article>
+            <article
+                class="relative w-full h-60 bg-cover bg-center group rounded-lg overflow-hidden shadow-lg hover:shadow-2xl  transition duration-300 ease-in-out"
+                style="background-image: url('https://images.unsplash.com/photo-1511376777868-611b54f68947?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80');">
+                <div
+                    class="absolute inset-0 bg-black bg-opacity-50 group-hover:opacity-75 transition duration-300 ease-in-out">
+                </div>
+                <div
+                    class="relative w-full h-full px-4 sm:px-6 lg:px-4 flex justify-center items-center">
+                    <h3 class="text-left">
+                        <a class="text-white text-2xl font-bold text-center" href="#">
+                            <span class="absolute inset-0"></span>
+                            The best plugins for Visual Studio Code
+                        </a>
+                    </h3>
+                </div>
+            </article>
+            <article
+                class="relative w-full h-60  bg-cover bg-center group rounded-lg overflow-hidden shadow-lg hover:shadow-2xl  transition duration-300 ease-in-out"
+                style="background-image: url('https://images.unsplash.com/photo-1511376777868-611b54f68947?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80');">
+                <div
+                    class="absolute inset-0 bg-black bg-opacity-50 group-hover:opacity-75 transition duration-300 ease-in-out">
+                </div>
+                <div
+                    class="relative w-full h-full px-4 sm:px-6 lg:px-4 flex justify-center items-center">
+                    <h3 class="text-left">
+                        <a class="text-white text-2xl font-bold text-center" href="#">
+                            <span class="absolute inset-0"></span>
+                            The best plugins for Visual Studio Code
+                        </a>
+                    </h3>
+                </div>
+            </article>
+            <article
+                class="relative w-full h-60 bg-cover bg-center group rounded-lg overflow-hidden shadow-lg hover:shadow-2xl  transition duration-300 ease-in-out"
+                style="background-image: url('https://images.unsplash.com/photo-1511376777868-611b54f68947?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80');">
+                <div
+                    class="absolute inset-0 bg-black bg-opacity-50 group-hover:opacity-75 transition duration-300 ease-in-out">
+                </div>
+                <div
+                    class="relative w-full h-full px-4 sm:px-6 lg:px-4 flex justify-center items-center">
+                    <h3 class="text-left">
+                        <a class="text-white text-2xl font-bold text-center" href="#">
+                            <span class="absolute inset-0"></span>
+                            The best plugins for Visual Studio Code
+                        </a>
+                    </h3>
+                </div>
+            </article>
+            <article
+                class="relative w-full h-60 bg-cover bg-center group rounded-lg overflow-hidden shadow-lg hover:shadow-2xl  transition duration-300 ease-in-out"
+                style="background-image: url('https://images.unsplash.com/photo-1511376777868-611b54f68947?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80');">
+                <div
+                    class="absolute inset-0 bg-black bg-opacity-50 group-hover:opacity-75 transition duration-300 ease-in-out">
+                </div>
+                <div
+                    class="relative w-full h-full px-4 sm:px-6 lg:px-4 flex justify-center items-center">
+                    <h3 class="text-left">
+                        <a class="text-white text-2xl font-bold text-center" href="#">
+                            <span class="absolute inset-0"></span>
+                            The best plugins for Visual Studio Code
+                        </a>
+                    </h3>
+                </div>
+            </article>
+        </section>
+    </article>
+</section>
+<hr class="my-4 hr-line">
+<footer class="mt-5">
+    <div class="text-center text-xs pb-8">
+        <small>Copyright © /devrabi/ 2021 All right reserved</small>
+    </div>
+</footer>
     
     `
 
@@ -262,13 +371,12 @@ const contactPage = getPageName('contact');
 contactPage.addEventListener('click', function (event) {
 
     detailsPage.innerHTML = `
-    <section class="text-gray-600 body-font relative">
-    <div class=" px-5 py-24 mx-auto">
+    <section class="text-gray-600 body-font ">
+    <div class=" px-5  pb-5 mx-auto">
         <div class="flex flex-col text-center w-full mb-12">
-        <img src="images/contact-us.png" class="lg:w-2/3 mx-auto" alt="">
             <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 page-title">Contact Us
             </h1>
-            <p class="lg:w-2/3 mx-auto leading-relaxed text-base">For any kind of support or
+            <p class="lg:w-2/3 mx-auto text-xs leading-relaxed ">For any kind of support or
                 information send us an email with your name and email id.</p>
         </div>
         <div class="lg:w-full md:w-2/3 mx-auto">
